@@ -1,0 +1,14 @@
+This is the assessment for Mpumelelo Ngema.
+
+In order to execute this assessment you will need to go
+to java class HtmlReader.java which has a main method that
+consumes the html URL and then read the table content and take
+print out the technologies per stack via JSON string.
+
+There is a utility class called JacksonUtil.java which converts the
+input Object variable into JSON via Jackson, there are 2 methods on this
+utility class, they both to the same thing which is to convert the Object
+but one has a pretty printer which displays the technologyStack JSON nicely.
+For testing purposed I'm using the non pretty printer as there is issues with
+environment when doing testing it as you will get "content have differences only
+in line separators" even though the expected and actual is the same.

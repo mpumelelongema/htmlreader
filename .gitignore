@@ -1,0 +1,33 @@
+# Compiled source       #
+#########################
+*.class
+target
+
+# IDEA files            #
+#########################
+*.iml
+.idea
+*.ipr
+*.ipr
+*.iws
+
+# Other files           #
+#########################
+*.swp
+*.log
+*.out
+*.jar
+
+# eclipse files         #
+#########################
+*.settings
+*.project
+*.classpath
+
+# gradle                #
+#########################
+Thumbs.db
+.DS_Store
+.gradle
+build/
+classes
