@@ -35,7 +35,7 @@ public class HtmlReader {
                     technologyStacks.add(getStack(body,"Monitoring", 3));
                 }
 
-            return JacksonUtil.convertAndPrintObjectToJsonPrettyPrint(technologyStacks);
+            return JacksonUtil.convertAndPrintObjectToJson(technologyStacks);
 
         } catch (IOException e) {
             e.printStackTrace();
